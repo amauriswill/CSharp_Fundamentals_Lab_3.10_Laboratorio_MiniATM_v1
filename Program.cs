@@ -3,7 +3,7 @@ using System.Text;
 
 ConfigurarConsola();
 
-string cliente = "Amauris WIllmore";
+string cliente = "Amauris Willmore";
 string numeroCuenta = "1003142";
 bool cuentaActiva = !args.Contains("--inactiva", StringComparer.OrdinalIgnoreCase);
 decimal saldo = 10000.00m;
@@ -20,7 +20,7 @@ static void ConfigurarConsola()
 static void MostrarInformacionCuenta(string cliente, string cuenta, bool activa, decimal saldo)
 {
     Console.WriteLine("========================================");
-    Console.WriteLine("         MINI ATM V1 - SESIÓN          ");
+    Console.WriteLine("         MINI ATM - SESIÓN  INICIADA    ");
     Console.WriteLine("========================================");
     Console.WriteLine($"Cliente: {cliente}");
     Console.WriteLine($"Cuenta:  {cuenta}");
